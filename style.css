@@ -1,0 +1,217 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbar{
+    background-color: Black !important;
+    
+    
+}
+.navbar-toggler{
+    
+    background-color: white;
+}
+.nav-link{
+    color:white !important;
+    font-weight: bold;
+}
+
+.dropdown-item:focus{
+  background-color: unset;
+}
+.logoimage{
+
+    width: 50%;
+    
+    
+}
+.nav-link:hover{
+    opacity: 0.5 !important;
+    }
+
+.fa-shopping-cart,.fa-user-circle-o{
+    font-size: 32px !important;
+    color: white;
+    margin: 5px;
+}
+
+.imgheader{
+    margin-bottom: 1.6%;
+}
+.imgheader1{
+    margin-bottom: 3.9%;
+}
+.fa-shopping-cart:hover{
+    opacity: 0.5;
+}
+.fa-user-circle-o:hover{
+    opacity: 0.5;
+}
+.fa-truck,.fa-question-circle-o,.fa-thumbs-up,.fa-reply{
+    font-size: 50px !important;
+    margin-right: 20px;
+    /* space b/w the logo and content */
+    color:  black !important;
+}
+
+
+
+
+
+.maincart1,.maincart2,.maincart3{
+    display: flex;
+    width: 300px;
+
+    /* width percetage main nahi dena warna div nahi chale ga */
+
+    height: 80px;
+    background-color: #fff;
+    box-shadow: 2px 4px 5px grey;
+    justify-content: center;
+    /* content ko right-left se center mian lane ke le */
+    align-items: center;
+    /* content ko top-buttom se center mian lane ke le */
+    margin-top: 10px;
+     
+    /* margin-top dena lazmi hai */
+    
+}
+.maincart{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+     /* row main lane ke le */
+
+     justify-content: space-around;
+     /* space b/w the div */
+
+     flex-wrap: wrap;
+
+     /* reponsive ke lia taake sare div alag alag line mian aaen */
+
+}
+h3{
+   color:  black; 
+}
+
+@media screen and (max-width:600px){
+    .maincart1,.maincart2,.maincart3{
+        width: 100%;
+
+        /* jab screen ka size 600px(cheak using incept google) se kum hu to sare div ke width 100 % ho jae */
+    }
+  
+}
+
+.newArival{
+    margin-top: 50px;
+
+    
+}
+
+.card{
+    width: 250px;
+    height: auto !important;
+    margin: 5px;
+}
+.card-text{
+    font-weight: bold;
+}
+.btn-primary{
+    width: 100%;
+    background-color: white;
+    color: black;
+    border: none;
+   
+}
+.btn-primary:hover{
+    background-color: black !important;
+}
+.btn-primary:focus{
+ background-color: black !important;
+ color: white;
+}
+.btn-primary:active{
+    background-color: black !important;
+    color: white;
+   }
+
+.btn-primary2:active{
+    background-color: black !important;
+    color: white;
+   }
+.btn-primary2:focus{
+    background-color: black !important;
+    color: white;
+   }
+
+.heading{
+    font-weight: bold;
+    color: black;
+    margin: 20px;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    
+}
+
+.footer{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    color: #fff;
+    margin: 10px;
+    text-align: center;
+    margin-bottom: -50px;
+    font-size: 20px;
+    margin-left: -0.09%;
+}
+
+
+.midimages{
+width: 100% !important;
+margin-top: 20px;
+}
+.midimages:hover{
+ opacity: 0.5;
+ cursor: pointer;
+}
+
+
+/* CONTACT US */
+.contactuspara{
+  font-size: 20px;
+  font-weight: normal;
+      
+}
+
+.contactuspara2{
+    font-size: 30px;
+    font-weight: bold;
+    
+        
+  }
+.btn-primary2{
+    background-color: black;
+    color: white;
+}
+.btn-primary2:hover{
+ opacity: 0.7;
+}
+
+/* polish */
+.topimage{
+
+    width: 100%;
+    margin-top: 10px;
+}
+.card-img-top{
+    height: 250px;
+}
+
+.imgheader{
+    margin-bottom: 1.6%;
+}
+.imgheader1{
+    margin-bottom: 3.9%;
+}
